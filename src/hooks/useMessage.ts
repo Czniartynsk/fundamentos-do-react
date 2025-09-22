@@ -3,6 +3,7 @@ type Props = {
 }
 
 export function useMessage({ name }: Props) {
+    
     function show(message: string) {
         console.log(name, message)
     }
